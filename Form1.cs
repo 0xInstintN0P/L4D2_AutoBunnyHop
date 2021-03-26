@@ -23,8 +23,8 @@ namespace l4d2autobunnyhop
         static extern short GetAsyncKeyState(Keys vkey);
 
 
-        string F_JUMP = "client.dll+0x739918";
-        string IN_AIR = "client.dll+0x6C5E80";
+        string F_JUMP = "client.dll+0x739918"; // Update
+        string IN_AIR = "client.dll+0x6C5E80"; // Update
         int result;
 
         public Form1()
